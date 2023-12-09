@@ -97,18 +97,18 @@ namespace Tyuiu.KolchakovDR.Sprint6.Task7.V21
         }
         private void FormMain_Load(object sender, EventArgs e)
         {
-            dataGridViewIn_KDR.ColumnCount = 50;
-            dataGridViewOut_KDR.ColumnCount = 50;
+            dataGridViewIn_KDR.ColumnCount = 38;
+            dataGridViewOut_KDR.ColumnCount = 38;
 
-            dataGridViewIn_KDR.RowCount = 50;
-            dataGridViewOut_KDR.RowCount = 50;
+            dataGridViewIn_KDR.RowCount = 38;
+            dataGridViewOut_KDR.RowCount = 38;
 
             panelLeft_KDR.Width = this.Width / 2;
 
-            for (int i = 0; i < 50; i++)
+            for (int i = 0; i < 38; i++)
             {
-                dataGridViewIn_KDR.Columns[i].Width = 25;
-                dataGridViewOut_KDR.Columns[i].Width = 25;
+                dataGridViewIn_KDR.Columns[i].Width = 19;
+                dataGridViewOut_KDR.Columns[i].Width = 19;
             }
         }
 

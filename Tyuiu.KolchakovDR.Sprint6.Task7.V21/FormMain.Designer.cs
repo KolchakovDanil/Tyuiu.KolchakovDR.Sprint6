@@ -206,6 +206,7 @@ namespace Tyuiu.KolchakovDR.Sprint6.Task7.V21
             // 
             // dataGridViewOut_KDR
             // 
+            this.dataGridViewOut_KDR.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridViewOut_KDR.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewOut_KDR.ColumnHeadersVisible = false;
             this.dataGridViewOut_KDR.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -257,6 +258,7 @@ namespace Tyuiu.KolchakovDR.Sprint6.Task7.V21
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 7 | Вариант 21 | Колчаков Д. Р.";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.panelLeft_KDR.ResumeLayout(false);
             this.groupBoxInputData_KDR.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewIn_KDR)).EndInit();
